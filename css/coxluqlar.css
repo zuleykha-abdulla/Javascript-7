@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/img/fon12.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+section {
+  padding: 90px;
+}
+.coxluq-img,
+.img-coxluq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.coxluq-img img,
+.img-coxluq img {
+  border-radius: 10px;
+  border: 5px solid rgb(157, 56, 197);
+}
